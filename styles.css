@@ -1,0 +1,89 @@
+/* Tags */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section h1 {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 4em;
+}
+
+/* Classes */
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%; 
+    height: 100vh;
+}
+
+.etch-container {
+    border: 5px outset;
+    width: 38rem;
+    height: 38rem;
+    display: grid;
+    z-index: 100;
+}
+
+.box {
+    border: 0.5px solid grey;
+}
+
+/* Slider Class */
+
+.slide-container {
+  width: 40%;
+  text-align: center;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 20px;
+    border-radius: 5px;  
+    background: #f3f3f3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: #3b3b3b;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #414141;
+    cursor: pointer;
+  }
+
+/*  */
+
+/* Ids */
+
+#canvas-main {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(#ffffff, #aec5d6);
+}
+
+/* Media Query */
