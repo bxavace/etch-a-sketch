@@ -3,3 +3,5 @@ Etch-A-Sketch from The Odin Project Curriculum
 
 - included a particle generator as background animation
 - included bootstrap v5.1 for styling
+
+Access live website here: https://bxavace.github.io/etch-a-sketch/
